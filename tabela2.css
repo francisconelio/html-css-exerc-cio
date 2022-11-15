@@ -4,7 +4,13 @@ table {
   border-collapse: collapse;
   width: 50%;
 }
-td, th {
+td {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+th {
   border: 1px solid #dddddd;
   text-align: center;
   padding: 8px;
@@ -13,4 +19,7 @@ td, th {
 tr:nth-child(even) {
   background-color: #dddddd;
 }
-tr:hover {background-color: #D6EEEE;}
+tr:nth-child(odd) {
+  background-color: white;
+}
+tr:hover {background-color: blue;}
